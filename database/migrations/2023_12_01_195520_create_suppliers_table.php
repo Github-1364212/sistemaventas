@@ -20,10 +20,6 @@ return new class extends Migration
             $table->string('type');
             $table->string('photo')->nullable();
             $table->string('shop');
-            $table->string('accountholder')->nullable();
-            $table->string('accountnumber')->nullable();
-            $table->string('bankname')->nullable();
-            $table->string('branchname')->nullable();
             $table->string('city');
             $table->timestamps();
         });

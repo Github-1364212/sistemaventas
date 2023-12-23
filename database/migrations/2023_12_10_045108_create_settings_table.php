@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('company_logo');
             $table->string('company_mobile');
             $table->string('company_city');
-            $table->string('company_country');
+            $table->string('company_ruc');
             $table->string('company_zipcode');
             $table->timestamps();
         });

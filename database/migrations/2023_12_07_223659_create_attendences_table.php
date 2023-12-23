@@ -17,6 +17,8 @@ return new class extends Migration
             $table->string('att_date');
             $table->string('att_year');
             $table->string('attendence');
+            $table->string('edit_date')->nullable();
+            $table->string('month');
             $table->timestamps();
         });
     }
